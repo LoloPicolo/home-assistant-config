@@ -9,9 +9,9 @@ first i use dedicated distribution of Raspbian
 
 1- PiDrive Community Foundation can be found here : https://github.com/PiDrive/CommunityFoundationEdition
 
-1a- i downloaded the package that i extracted on a 8Gb MicroSD (can be 4Gb if you have)
-1b- RPi3 has started on this SD Card and my pidrive was connected
-1c- i choose in NOOBS Raspbian Lite in France with FR Keyboard
+1a- i downloaded the package that i extracted on a 8Gb MicroSD (can be 4Gb if you have).
+1b- RPi3 has started on this SD Card and my pidrive was connected.
+1c- i choose in NOOBS Raspbian Lite in France with FR Keyboard.
 1d- i enabled SHH in Raspi-config for remote installation and control.
 
 2- Then i followed instructions from https://community.home-assistant.io/t/installing-home-assistant-supervised-on-a-raspberry-pi-with-debian-10/247116
