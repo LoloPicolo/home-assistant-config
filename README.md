@@ -15,7 +15,7 @@ first i use dedicated distribution of Raspbian
 
 1c- i choose in NOOBS Raspbian Lite in France with FR Keyboard.
 
-1d- i enabled SHH in Raspi-config for remote installation and control.
+1d- i enabled SSH in Raspi-config for remote installation and control.
 
 
 2- Then i followed instructions from https://community.home-assistant.io/t/installing-home-assistant-supervised-on-a-raspberry-pi-with-debian-10/247116
