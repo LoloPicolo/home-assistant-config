@@ -7,18 +7,14 @@ Hi all, please find below my shared experience on Home Assistant Installation an
 as i've read that SD is not the best way to store my Home assistant installation, i used a PiDrive i have in house to install Home Assistant.
 first i use dedicated distribution of Raspbian
 
-1- PiDrive Community Foundation can be found here : https://github.com/PiDrive/CommunityFoundationEdition
+1- PiDrive Community Foundation can be found here : [CommunityFoundationEdition](https://github.com/PiDrive/CommunityFoundationEdition)
 
-1a- i downloaded the package that i extracted on a 8Gb MicroSD (can be 4Gb if you have).
+- i downloaded the package that i extracted on a 8Gb MicroSD (can be 4Gb if you have).
+- RPi3 has started on this SD Card and my pidrive was connected.
+- i choose in NOOBS Raspbian Lite in France with FR Keyboard.
+- i enabled SSH in Raspi-config for remote installation and control.
 
-1b- RPi3 has started on this SD Card and my pidrive was connected.
-
-1c- i choose in NOOBS Raspbian Lite in France with FR Keyboard.
-
-1d- i enabled SSH in Raspi-config for remote installation and control.
-
-
-2- Then i followed instructions from https://community.home-assistant.io/t/installing-home-assistant-supervised-on-a-raspberry-pi-with-debian-10/247116
+2- Then i followed instructions from [Community Site](https://community.home-assistant.io/t/installing-home-assistant-supervised-on-a-raspberry-pi-with-debian-10/247116)
 
 As i've done this migration after few weeks of setup, i used Full Snaptshot on my SD installation to move to PiDrive. Worked fine.
 
