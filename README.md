@@ -20,3 +20,13 @@ As i've done this migration after few weeks of setup, i used Full Snaptshot on m
 
 # B- First implementations
 
+1- I've installed Samba Share, File Editor, Duck DNS, Home Assistant Community Store, Backup & Restore Google, motionEye, Gigaset Elements, Méteo france, Garbage Collection, Renault Zoe, Waze, Calendar, Enedis
+
+- For Samba Share, File Editor and Duck DNS, i used standard Add-on Store menu in supervisor item. 
+  - For Samba, i create user/password to let me access to config folder.
+  - For File Editor, we can have access directly from Web UI.
+  - For DuckDNS, this is for external use. i create an account to let me have a myhomeassistant.duckdns.org link to my personnel home assistant system.
+
+- for Home Assistant Community Store, i installed package following [Home Assistant installation link](https://hacs.xyz/docs/installation/manual) and [Home Assistant installation French link](https://hacf.fr/installer-ajouter-integrations-customisations-avec-hacs/)
+
+- for Backup & Restore Google, i use HACS and follow [French instructions](https://hacf.fr/sauvegarder-votre-home-assistant-sur-le-cloud-google/)
