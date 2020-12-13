@@ -27,6 +27,6 @@ As i've done this migration after few weeks of setup, i used Full Snaptshot on m
   - For File Editor, we can have access directly from Web UI.
   - For DuckDNS, this is for external use. i create an account to let me have a myhomeassistant.duckdns.org link to my personnel home assistant system.
 
-- for Home Assistant Community Store, i installed package following [Home Assistant installation link](https://hacs.xyz/docs/installation/manual) and [Home Assistant installation French link](https://hacf.fr/installer-ajouter-integrations-customisations-avec-hacs/)
+- For Home Assistant Community Store, i installed package following [Home Assistant installation link](https://hacs.xyz/docs/installation/manual) and [Home Assistant installation French link](https://hacf.fr/installer-ajouter-integrations-customisations-avec-hacs/)
 
 - for Backup & Restore Google, i use HACS and follow [French instructions](https://hacf.fr/sauvegarder-votre-home-assistant-sur-le-cloud-google/)
