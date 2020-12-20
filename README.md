@@ -33,7 +33,7 @@ Une fois le transfert réalisé, aucun moyen de vérifier que cela s'est bien pa
 
 - Pour le système de sauvegarde Backup & Restore Google, J'ai suivi les instructions sur [Backup Google installation HACF](https://hacf.fr/sauvegarder-votre-home-assistant-sur-le-cloud-google/)
 
-## C- motionEye
+## C- MotionEye
 ## D- Gigaset Elements
 ## E- Méteo France
 ## F- Garbage Collection
