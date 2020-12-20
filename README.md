@@ -1,4 +1,22 @@
 # Lolo's Home Assistant Configuration Files
+
+Version FR
+
+Bonjour, vous trouverez ci dessous ma partage d'expérience concernant mon installation Home Assistant que j'ai réalisé ces dernières semaines.
+
+# A- Raspberry Pi 3B+ installation avec PiDrive
+Comme j'ai lu que la carte SD n'était pas la meilleure installation pérènne pour une installation de Home Assistant, j'ai utilisé un PiDrive que j'avais à disposition
+
+Dans un premier temps, j'ai installé Home Asistant en mode standard sur une carte SD de 8Go comme indiqué dans [Installation Home Assistant](https://hacf.fr/installer-et-regler-home-assistant-sur-un-raspberry-pi/)
+
+Ensuite, il faut utiliser la commande DATACTL. pour réaliser cela, il faut
+
+
+
+
+
+Version EN
+
 My Personal Home Assistant Configuration
 
 Hi all, please find below my shared experience on Home Assistant Installation and setup i've done the previsous weeks.
