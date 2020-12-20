@@ -5,11 +5,13 @@ Version FR
 Bonjour, vous trouverez ci dessous ma partage d'expérience concernant mon installation Home Assistant que j'ai réalisé ces dernières semaines.
 
 # A- Raspberry Pi 3B+ installation avec PiDrive
-Comme j'ai lu que la carte SD n'était pas la meilleure installation pérènne pour une installation de Home Assistant, j'ai utilisé un PiDrive que j'avais à disposition
+Comme j'ai lu que la carte SD n'était pas la meilleure installation pérènne pour une installation de Home Assistant, j'ai utilisé un PiDrive que j'avais à disposition.
 
-Dans un premier temps, j'ai installé Home Asistant en mode standard sur une carte SD de 8Go comme indiqué dans [Installation Home Assistant](https://hacf.fr/installer-et-regler-home-assistant-sur-un-raspberry-pi/).
+1- Dans un premier temps, j'ai installé Home Assistant en mode standard sur une carte SD de 8Go comme indiqué dans [Installation Home Assistant](https://hacf.fr/installer-et-regler-home-assistant-sur-un-raspberry-pi/).
 
-Ensuite, il faut utiliser la commande DATACTL. pour réaliser cela, il faut autoriser la connexion SSH depuis l'extérieur. 
+2- J'ai installé le Add-On [Serveur SSH](http://www.lacavernedefred.ovh/blog/2018/03/08/debuter-avec-home-assistant/) pour autoriser un accès SSH à Home Assistant 
+
+3- Ensuite, il faut utiliser la commande DATACTL. pour réaliser cela, il faut autoriser la connexion SSH depuis l'extérieur. 
 Pour cela, il faut suivre les instructions présentes [ici](https://community.home-assistant.io/t/ssh-into-hassos/84909/39?u=lolopicolo)
 
 Ensuite, une fois l'accès autorisé, voici les commandes à utiliser 
@@ -17,8 +19,20 @@ login, puis fdisk -l pur identifier le disque dur et ensuite datactl move /dev/s
 Toutes les explicatione en anglais sont [ici](https://community.home-assistant.io/t/hass-io-transfer-from-sd-card-to-ssd-or-usb/97452/270?u=lolopicolo)
 Une fois le transfert réalisé, aucun moyen de vérifier que cela s'est bien passé sauf à tenter de reproduire l'opération. Un message d'erreur indiquera que le disque source et destination ne peuvent être le même.
 
-Pour augmenter la taille de la zone configuration, il faut utiliser GParted en bootant votre pc sur une clé USB disposant de GParted.
-pour utiliser GParted, la procédure est [ici](https://gparted.org/liveusb.php#windows-method-a)
+4- Pour redimensionner la partition de la zone configuration, il faut utiliser GParted en bootant votre pc sur une clé USB disposant de GParted et en connectant le disque utilisé sur Home Assistant. Pour utiliser GParted, la procédure est [ici](https://gparted.org/liveusb.php#windows-method-a)
+
+# B- Premières implémentations
+
+1- J'ai installé Samba Share, File Editor, Duck DNS, Home Assistant Community Store, Backup & Restore Google, motionEye, Gigaset Elements, Méteo france, Garbage Collection, Renault Zoe, Waze, Calendar, Enedis
+
+- Pour Samba Share, File Editor et Duck DNS, j'ai utilisé le sous-menu Add-on Store dans le menu supervisor. 
+  - Pour [Samba](https://hacf.fr/partager-votre-installation-home-assistant-via-samba-share/), j'ai créer un ensemble utilisateur/mot de passeport pour me donner accès aux répertoires de configuration directemetn depuis mon PC.
+  - Pour [File Editor](https://hacf.fr/file-editor-et-home-assistant-modifier-vos-fichiers/), vous pouvez éditer les fichiers de configuration directement depuis l'interface web. Mais ce n'est pas la manière la plus simple.
+  - Pour [DuckDNS](https://hacf.fr/acceder-a-home-assistant-depuis-lexterieur-via-duckdns/), c'est pour l'accès externe. J'ai cré un compte pour avoir accès à un lien externe myhomeassistant.duckdns.org pour l'accès externe de mon système.
+
+- Pour le HACS (Home Assistant Community Store), J'ai suivi les instructions sur [HACS installation HACF](https://hacf.fr/installer-ajouter-integrations-customisations-avec-hacs/)
+
+- Pour le système de sauvegarde Backup & Restore Google, J'ai suivi les instructions sur [Backup Google installation HACF](https://hacf.fr/sauvegarder-votre-home-assistant-sur-le-cloud-google/)
 
 
 
