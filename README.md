@@ -1,10 +1,9 @@
 # Lolo's Home Assistant Configuration Files
-
-Version FR
+# Version FR
 
 Bonjour, vous trouverez ci dessous ma partage d'expérience concernant mon installation Home Assistant que j'ai réalisé ces dernières semaines.
 
-# A- Raspberry Pi 3B+ installation avec PiDrive
+## A- Raspberry Pi 3B+ installation avec PiDrive
 Comme j'ai lu que la carte SD n'était pas la meilleure installation pérènne pour une installation de Home Assistant, j'ai utilisé un PiDrive que j'avais à disposition.
 
 1- Dans un premier temps, j'ai installé Home Assistant en mode standard sur une carte SD de 8Go comme indiqué dans [Installation Home Assistant](https://hacf.fr/installer-et-regler-home-assistant-sur-un-raspberry-pi/).
@@ -21,7 +20,7 @@ Une fois le transfert réalisé, aucun moyen de vérifier que cela s'est bien pa
 
 4- Pour redimensionner la partition de la zone configuration, il faut utiliser GParted en bootant votre pc sur une clé USB disposant de GParted et en connectant le disque utilisé sur Home Assistant. Pour utiliser GParted, la procédure est [ici](https://gparted.org/liveusb.php#windows-method-a)
 
-# B- Premières implémentations
+## B- Premières implémentations
 
 1- J'ai installé Samba Share, File Editor, Duck DNS, Home Assistant Community Store, Backup & Restore Google, motionEye, Gigaset Elements, Méteo france, Garbage Collection, Renault Zoe, Waze, Calendar, Enedis
 
@@ -34,17 +33,17 @@ Une fois le transfert réalisé, aucun moyen de vérifier que cela s'est bien pa
 
 - Pour le système de sauvegarde Backup & Restore Google, J'ai suivi les instructions sur [Backup Google installation HACF](https://hacf.fr/sauvegarder-votre-home-assistant-sur-le-cloud-google/)
 
-# C- motionEye
-# D- Gigaset Elements
-# E- Méteo France
-# F- Garbage Collection
-# G- Renault Zoe
-# H- Waze
-# I- Calendar
-# J- Enedis
-# K- Thermometre/Hydromètre Xiaomi
-# L- Module Sonoff / Module TP Link
-# M- Installation du pilotage Chauffage
+## C- motionEye
+## D- Gigaset Elements
+## E- Méteo France
+## F- Garbage Collection
+## G- Renault Zoe
+## H- Waze
+## I- Calendar
+## J- Enedis
+## K- Thermometre/Hydromètre Xiaomi
+## L- Module Sonoff / Module TP Link
+## M- Installation du pilotage Chauffage
 
 
 
