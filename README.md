@@ -25,7 +25,7 @@ Une fois le transfert réalisé, aucun moyen de vérifier que cela s'est bien pa
 
 1- J'ai installé Samba Share, File Editor, Duck DNS, Home Assistant Community Store, Backup & Restore Google, motionEye, Gigaset Elements, Méteo france, Garbage Collection, Renault Zoe, Waze, Calendar, Enedis
 
-- Pour Samba Share, File Editor et Duck DNS, j'ai utilisé le sous-menu Add-on Store dans le menu supervisor. 
+  - Pour Samba Share, File Editor et Duck DNS, j'ai utilisé le sous-menu Add-on Store dans le menu supervisor. 
   - Pour [Samba](https://hacf.fr/partager-votre-installation-home-assistant-via-samba-share/), j'ai créer un ensemble utilisateur/mot de passeport pour me donner accès aux répertoires de configuration directemetn depuis mon PC.
   - Pour [File Editor](https://hacf.fr/file-editor-et-home-assistant-modifier-vos-fichiers/), vous pouvez éditer les fichiers de configuration directement depuis l'interface web. Mais ce n'est pas la manière la plus simple.
   - Pour [DuckDNS](https://hacf.fr/acceder-a-home-assistant-depuis-lexterieur-via-duckdns/), c'est pour l'accès externe. J'ai cré un compte pour avoir accès à un lien externe myhomeassistant.duckdns.org pour l'accès externe de mon système.
@@ -33,6 +33,22 @@ Une fois le transfert réalisé, aucun moyen de vérifier que cela s'est bien pa
 - Pour le HACS (Home Assistant Community Store), J'ai suivi les instructions sur [HACS installation HACF](https://hacf.fr/installer-ajouter-integrations-customisations-avec-hacs/)
 
 - Pour le système de sauvegarde Backup & Restore Google, J'ai suivi les instructions sur [Backup Google installation HACF](https://hacf.fr/sauvegarder-votre-home-assistant-sur-le-cloud-google/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
