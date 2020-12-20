@@ -43,7 +43,8 @@ Une fois le transfert réalisé, aucun moyen de vérifier que cela s'est bien pa
 # I- Calendar
 # J- Enedis
 # K- Thermometre/Hydromètre Xiaomi
-# L- Module Sonoff
+# L- Module Sonoff / Module TP Link
+# M- Installation du pilotage Chauffage
 
 
 
